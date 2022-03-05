@@ -1,0 +1,113 @@
+body {
+    background-color: #9b50af;
+}
+li {
+    margin: 10px;
+}
+button {
+    background-color: rgb(245, 159, 245);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.3rem;
+}
+/* button {
+    margin: 30px;
+} */
+#container {
+    margin: 2rem;
+    padding: 3rem;
+    background-color: rgb(62, 240, 180);
+    width: 10rem;
+}
+
+.class1 {
+    background-color: #9b50af;
+}
+
+.class2 {
+    background-color: green;
+}
+
+.highlighted {
+    background: yellow;
+    font-style: italic;
+}
+.creature {
+    margin: 20px;
+    background-color: #ffe1ff;
+    border: 1px solid #8b7b8b;
+}
+.terrain {
+    margin: 20px;
+    background-color: green;
+    border: 1px solid #8b7b8b;
+}
+#example, #result {
+    margin: 30px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+}
+#result {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 30px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-flow: row-reverse center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#add-container {
+    margin: 50px 20px;
+}
+.item {
+    padding: 0.3rem;
+    margin: 0.3rem ;
+    font-weight: bold;
+    background-color: aquamarine;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    width: 12.5rem;
+}
+    .remove {
+        color: red;
+        margin-right: 0.2rem;
+    }
+.item-box {
+    background-color: rgb(63, 240, 181);
+    width: 20rem;
+    padding: 1rem;
+}
+    img {
+    width: 100%;
+    }
+    .item-tittle, .item-price {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .more-info {
+        margin-top: 1rem;
+        display: none;
+    }
+.example {
+    position: relative;
+    left: 1.25rem;
+    background-color: rgb(61, 248, 186);
+    width: 6.5rem;
+    height: 6.5rem;
+    margin: 1.25rem;
+}
