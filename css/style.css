@@ -1,5 +1,7 @@
 body {
     background-color: #9b50af;
+    display: flex;
+    justify-content: center;
 }
 li {
     margin: 10px;
@@ -11,6 +13,15 @@ button {
     padding: 0.5rem;
     margin: 0;
     width: 100%;
+}
+.shopping-cart {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 #container {
     margin: 2rem;
@@ -53,6 +64,7 @@ button {
     justify-content: left;
 }
 #result {
+    display: none;
     font-size: 2rem;
     font-weight: bold;
     margin: 1.875rem;
@@ -60,7 +72,7 @@ button {
     border: 2px solid black;
     width: 70%;
     height: 14rem;
-    display: flex;
+    /* display: flex; */
     flex-flow: row-reverse center;
     text-align: center;
     align-items: center;
@@ -99,6 +111,8 @@ button {
         margin-right: 0.2rem;
     }
 .item-box {
+    display: block;
+    margin: 2rem;
     background-color: rgb(63, 240, 181);
     width: 20rem;
     padding: 1rem;
@@ -121,4 +135,36 @@ button {
     width: 6.5rem;
     height: 6.5rem;
     margin: 1.25rem;
+}
+#pets-row {
+    display: none;
+    display: flex;
+}
+.form-container {
+    font-weight: bold;
+    margin: 3rem;
+    padding: 0 1rem 0;
+    background-color: rgb(62, 248, 186);
+    width: 40%;
+    height: 22rem;
+    display: flex;
+}
+.form-row {
+    display: grid;
+    margin-top: 0.5rem;
+}
+#pet {
+    width: 30%;
+}
+#pets-row {
+    display: contents;
+}
+input[type="submit"] {
+    position: sticky;
+    display: grid;
+    justify-self: end;
+    align-self: flex-end;
+    background-color: rgb(245, 159, 245);
+    margin-top: 5rem;
+    margin-left: 11rem;
 }

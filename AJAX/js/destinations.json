@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Bahia Inglesa",
+        "description": "A very nice place Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum hic ullam, quod repellat doloribus ad dignissimos obcaecati est accusamus quisquam repudiandae, doloremque consequatur reiciendis sunt aliquid, suscipit modi aperiam.",
+        "moreInfo": "Excepturi rerum unde ratione consequatur soluta quaerat incidunt id expedita veniam? Sunt deleniti sapiente deserunt quibusdam culpa nulla error nobis maxime laboriosam?",
+        "image": "diving.jpg",
+        "price": 199
+    },
+    {
+        "id": 2,
+        "name": "Iquique",
+        "description": "A very nice place Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum hic ullam, quod repellat doloribus ad dignissimos obcaecati est accusamus quisquam repudiandae, doloremque consequatur reiciendis sunt aliquid, suscipit modi aperiam.",
+        "moreInfo": "Excepturi rerum unde ratione consequatur soluta quaerat incidunt id expedita veniam? Sunt deleniti sapiente deserunt quibusdam culpa nulla error nobis maxime laboriosam?",
+        "image": "diving.jpg",
+        "price": 199
+    },
+    {
+        "id": 3,
+        "name": "Arica",
+        "description": "A very nice place Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum hic ullam, quod repellat doloribus ad dignissimos obcaecati est accusamus quisquam repudiandae, doloremque consequatur reiciendis sunt aliquid, suscipit modi aperiam.",
+        "moreInfo": "Excepturi rerum unde ratione consequatur soluta quaerat incidunt id expedita veniam? Sunt deleniti sapiente deserunt quibusdam culpa nulla error nobis maxime laboriosam?",
+        "image": "diving.jpg",
+        "price": 199
+    }
+]
